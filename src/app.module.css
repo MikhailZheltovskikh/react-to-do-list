@@ -28,4 +28,27 @@ h1 {
 	padding: 0;
 }
 
+.sort__btn{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 20px;
+	height: 40px;
+	padding: 0 20px;
+	font-size: 16px;
+	line-height: 1;
+	font-weight: 400;
+	color: #000;
+	background-color: transparent;
+	border: 1px solid #000;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: all .2s ease;
+}
+
+.sort__btn:hover{
+	background-color: #000;
+	color: #fff;
+}
+
 
