@@ -1,3 +1,14 @@
 {
-  "todo": []
+  "todo": [
+    {
+      "title": "Уборка",
+      "completed": false,
+      "id": 1
+    },
+    {
+      "title": "Готовка",
+      "completed": true,
+      "id": 2
+    }
+  ]
 }

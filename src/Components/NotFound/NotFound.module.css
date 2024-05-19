@@ -1,0 +1,29 @@
+.title{
+	text-align: center;
+	font-size: 36px;
+}
+
+.btn{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 150px;
+	height: 40px;
+	margin: 0 auto;
+	margin-top: 20px;
+	font-size: 16px;
+	line-height: 1;
+	font-weight: 400;
+	color: gray;
+	border: 1px solid gray;
+	background-color: transparent;
+	border-radius: 0;
+	cursor: pointer;
+	transition: all .2s ease;
+
+}
+
+.btn:hover{
+	background-color: gray;
+	color: #fff;
+}

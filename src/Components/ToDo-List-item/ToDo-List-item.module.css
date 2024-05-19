@@ -23,11 +23,18 @@
 }
 
 .toDoList__item__text{
+	text-decoration: none;
+	display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    word-break: break-word;
 	width: 100%;
 	font-size: 16px;
 	line-height: 1.2;
 	font-weight: 400;
 	color: #000;
+	cursor: pointer;
 }
 
 .toDoList__item__delete__btn{
@@ -99,3 +106,6 @@
 	opacity: 0.7;
 }
 
+.toDoList__item__disable{
+	opacity: 0.5;
+}
